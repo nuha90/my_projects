@@ -1,0 +1,27 @@
+body {
+  background-image: url("wallpaper-website-background-dark-wooden-website-background.jpg");
+  background-color: #cccccc;
+}
+
+.key {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem, 5rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: all 1.07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px yellowgreen;
+  display: inline;
+}
+kbd {
+  display: block;
+  font-size: 40px;
+}
